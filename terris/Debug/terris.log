@@ -1,0 +1,55 @@
+﻿已經開始建置於 2018/9/19 下午 07:37:49。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\terris\terris.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\terris.unsuccessfulbuild"。
+       ClCompile:
+         D:\visual2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ObjObject.cpp ObjPoint.cpp Rect.cpp main.cpp
+         main.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\terris\graphics.h(281): warning C4273: 'getch' : 不一致的 DLL 連結
+                 d:\visual2010\vc\include\conio.h(128) : 請參閱 'getch' 之前的定義
+     1>c:\users\user\documents\visual studio 2010\projects\terris\graphics.h(282): warning C4273: 'kbhit' : 不一致的 DLL 連結
+                 d:\visual2010\vc\include\conio.h(130) : 請參閱 'kbhit' 之前的定義
+     1>c:\users\user\documents\visual studio 2010\projects\terris\main.cpp(209): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 d:\visual2010\vc\include\conio.h(130) : 請參閱 'kbhit' 的宣告
+     1>c:\users\user\documents\visual studio 2010\projects\terris\main.cpp(211): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\visual2010\vc\include\conio.h(128) : 請參閱 'getch' 的宣告
+     1>c:\users\user\documents\visual studio 2010\projects\terris\main.cpp(212): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\visual2010\vc\include\conio.h(128) : 請參閱 'getch' 的宣告
+     1>c:\users\user\documents\visual studio 2010\projects\terris\main.cpp(219): warning C4390: ';' : 找到空白的控制陳述式，是正確的嗎?
+     1>c:\users\user\documents\visual studio 2010\projects\terris\main.cpp(222): warning C4390: ';' : 找到空白的控制陳述式，是正確的嗎?
+     1>c:\users\user\documents\visual studio 2010\projects\terris\main.cpp(248): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\visual2010\vc\include\conio.h(128) : 請參閱 'getch' 的宣告
+     1>c:\users\user\documents\visual studio 2010\projects\terris\main.cpp(249): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\visual2010\vc\include\conio.h(128) : 請參閱 'getch' 的宣告
+     1>c:\users\user\documents\visual studio 2010\projects\terris\main.cpp(24): warning C4101: 'y' : 未參考的區域變數
+     1>c:\users\user\documents\visual studio 2010\projects\terris\main.cpp(24): warning C4101: 'x' : 未參考的區域變數
+         正在產生程式碼...
+         正在略過... (未偵測到相關變更)
+         Rect.cpp
+         ObjPoint.cpp
+         ObjObject.cpp
+       Link:
+         D:\visual2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\terris.exe" /NOLOGO libbgi_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\terris.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\terris.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\terris.lib" /MACHINE:X86 Debug\main.obj
+         Debug\ObjObject.obj
+         Debug\ObjPoint.obj
+         Debug\Rect.obj
+         Debug\utilwin32.obj /NODEFAULTLIB:LIBCMT 
+         LINK : 最後的累加連結找不到或未建置 C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\terris.exe，正在執行完整連結
+     1>libbgi_d.lib(dibutil.obj) : warning LNK4204: 'C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\vc100.pdb' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+     1>libbgi_d.lib(drawing.obj) : warning LNK4204: 'C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\vc100.pdb' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+     1>libbgi_d.lib(file.obj) : warning LNK4204: 'C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\vc100.pdb' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+     1>libbgi_d.lib(misc.obj) : warning LNK4204: 'C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\vc100.pdb' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+     1>libbgi_d.lib(text.obj) : warning LNK4204: 'C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\vc100.pdb' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+     1>libbgi_d.lib(winbgi.obj) : warning LNK4204: 'C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\vc100.pdb' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+     1>libbgi_d.lib(winthread.obj) : warning LNK4204: 'C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\vc100.pdb' 遺漏參考模組的偵錯資訊，當做沒有偵錯資訊，連結物件
+         terris.vcxproj -> C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\terris.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\user\Documents\Visual Studio 2010\Projects\terris\Debug\terris.exe;#1" /manifest Debug\terris.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\terris.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\terris.lastbuildstate"。
+     1>專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\terris\terris.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:03.41
